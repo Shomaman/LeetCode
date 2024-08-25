@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class DecodeTheMessage {
     public String decodeMessage(String key, String message) {
-        Map<Character, Character> mapping = new HashMap();
+        Map<Character, Character> mapping = new HashMap<>();
         char index = 97;
         for (Character c : key.toCharArray()) {
             if (c == ' ') {
